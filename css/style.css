@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: "Roboto", sans-serif;
+  background: #353535;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  color: #d9d9d9;
+  width: 80%;
+  text-align: center;
+}
+
+.main-title {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #ffbf69;
+}
+
+.secondary-title {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  transition: opacity 0.2s ease;
+  transition: background-color 0.2s ease;
+  transition: font-size 0.2s ease;
+  transition: color 0.2s ease;
+}
+
+.nav-menu a:first-child {
+  margin-right: 3rem;
+}
+
+.nav-menu a:hover {
+  border-bottom: 2px solid #ff9f1c;
+  opacity: 0.7;
+  background-color: #505050;
+  padding: 8px 8px;
+  border-radius: 6px;
+  font-size: 1.7rem;
+  color: #e8eddf;
+}
